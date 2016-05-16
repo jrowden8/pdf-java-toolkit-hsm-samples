@@ -12,7 +12,7 @@ import java.io.IOException;
 public final class HsmManagerFactory {
 
     /**
-     * Luna SA Hsm Type.
+     * Luna SA HSM Type.
      */
     public static final String LUNA_HSM_TYPE = "luna";
 
@@ -24,7 +24,7 @@ public final class HsmManagerFactory {
     /**
      * Gets a new instance of a HsmManager for the needed type of HSM device.
      *
-     * @param hsmType - Type of HSM device you are connecting to
+     * @param hsmType name of the HSM device you are requesting.
      * @return HsmManager
      * @throws IOException an I/O operation failed or was interrupted
      */
